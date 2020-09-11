@@ -3,14 +3,23 @@ install: true
 matrix:
   include:
     - os: linux
+      arch:
+    -     amd64
+    -     arm64
       jdk: openjdk8
       env:
         - EXAMPLES_PROFILE="release"
     - os: linux
+      arch:
+    -     amd64
+    -     arm64
       jdk: openjdk11
       env:
         - EXAMPLES_PROFILE="noRun"
     - os: linux
+      arch:
+    -     amd64
+    -     arm64
       jdk: openjdk14
       env:
         - EXAMPLES_PROFILE="noRun"
