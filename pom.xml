@@ -97,10 +97,10 @@
       <maven.assembly.plugin.version>2.4</maven.assembly.plugin.version>
       <mockito.version>3.3.3</mockito.version>
       <jctools.version>2.1.2</jctools.version>
-      <netty.version>4.1.48.Final</netty.version>
+      <netty.version>4.1.51.Final</netty.version>
 
       <!-- this is basically for tests -->
-      <netty-tcnative-version>2.0.29.Final</netty-tcnative-version>
+      <netty-tcnative-version>2.0.33.Final</netty-tcnative-version>
       <proton.version>0.33.6</proton.version>
       <resteasy.version>3.0.19.Final</resteasy.version>
       <slf4j.version>1.7.21</slf4j.version>
@@ -127,7 +127,7 @@
       <version.maven.jar.plugin>2.4</version.maven.jar.plugin>
       <version.micrometer>1.1.4</version.micrometer>
       <hamcrest.version>2.1</hamcrest.version>
-      <surefire.version>2.22.2</surefire.version>
+      <surefire.version>3.0.0-M5</surefire.version>
 
       <!-- used on tests -->
       <groovy.version>2.5.10</groovy.version>
