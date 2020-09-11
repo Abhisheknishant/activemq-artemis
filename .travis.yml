@@ -36,6 +36,13 @@ matrix:
         
         # clean out Artemis artifacts from the cache
 before_install:
+- if [[ "${TRAVIS_CPU_ARCH}" == "arm64" ]]; then
+      if [[ "${TRAVIS_JDK_VERSION}" == "openjdk8" ]]; then 
+        sudo apt-get install -y maven openjdk-8-jdk;
+      else
+        sudo apt-get install -y maven openjdk-11-jdk;
+      fi  
+  fi
 - rm -rf $HOME/.m2/repository/org/apache/activemq/artemis-*
 
 # use 'install' so smoke-tests will work
