@@ -8,6 +8,7 @@ matrix:
       env:
         - EXAMPLES_PROFILE="release"
     - os: linux
+      dist: bionic
       arch: arm64
       jdk: openjdk8
       env:
@@ -19,6 +20,7 @@ matrix:
       env:
         - EXAMPLES_PROFILE="noRun"
     - os: linux
+      dist: bionic
       arch: arm64
       jdk: openjdk11
       env:
@@ -29,6 +31,7 @@ matrix:
       env:
         - EXAMPLES_PROFILE="noRun"
     - os: linux
+      dist: bionic 
       arch: arm64
       jdk: openjdk14
       env:
